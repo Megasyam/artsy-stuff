@@ -1,0 +1,87 @@
+body{
+	background-color: #D39AFE;
+	font-family: 'Courgette'; font-size: 35px;
+	color: #22032b;
+	margin: 0;
+}
+mark{
+	background-color: #290334;
+	color: #CB86FF;
+	border-radius: 25px;
+	padding: 15px; 
+}
+#main-head h1{
+	/*font-family: 'Caveat Brush';font-size: 80px;*/
+	position: fixed;
+	font-family: 'Cookie';font-size: 80px;
+	font-style: italic;
+	color: #cb86ff;
+	background-color: #290334;
+	letter-spacing: 0.03em;
+	text-align: center;
+	margin: 0;
+  	padding: 4px 0 15px 0;
+  	overflow: hidden;
+  	top: 0;
+  	width: 100%;
+  	display: block;
+}
+.head a{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.big{
+	padding-left: 15px;
+	margin: 50px 0 0 20px;
+}
+.short p{
+	font-family: 'PT Sans';font-size: 32px;
+	font-style: italic;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+form {
+  border: 3px solid #EFA4FF;
+}
+.container {
+  padding: 20px;
+  background-color: #EFA4FF;
+  box-shadow: 4px 4px 25px 5px #EFA4FF;
+  box-shadow: -4px -4px 25px 5px #EFA4FF;
+}
+.container p{
+	font-size: 37px;
+}
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid #F7A6FF;
+  box-sizing: border-box;
+}	
+
+input[type=submit] {
+  background-color: #695BA7;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.news h2{
+	margin: 10px;
+	border: 2px 0;
+}
+.links ins{
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 23px;
+}
+.links iframe{
+	padding-top: 15px;
+	padding-left: 31px;
+}
