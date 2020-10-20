@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #0D1418;
+	font-family: "Poppins";
+}
+header{
+	background-color: #F276A2;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+  	overflow: hidden;
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+img[src="logo-final.png"]{
+	padding-top: 12px;
+	margin-left: 38px;
+	float: left;
+	left: 0;
+	width: 130px;
+	height: auto;
+}
+img[src="user-icon.png"]{
+	padding-top: 35px;
+	margin-right: 38px;
+	float: right;
+	right: 0;
+	width: 80px;
+	height: auto;
+}
+ul li h1{
+	font-family: "Princess Sofia";
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	letter-spacing: 0.038em;
+	top: 0;
+	/*transform: scale(-1, 1);*/
+}
+.hot{
+  	display: flex;
+  	overflow-y: hidden;
+  	margin-left: 20px;
+}
+h3{
+	margin: 20px 20px;
+	padding-top: 10px;
+	font-size: 50px;
+	color: #F276A2;
+	letter-spacing: 0.012em;
+	text-shadow: 0.5px 0.5px 7px #F276A2;
+}
+.hot::-webkit-scrollbar {
+	display: none;
+}
+.hot>img{
+  	margin: 9.8px;
+  	width: 280px;
+	height: auto;
+  	transition: transform 0.4s ease;
+  	opacity: 0.93;
+}
+.hot>img:hover {
+  	transform: scale(1.1);
+  	opacity: 1;
+}
