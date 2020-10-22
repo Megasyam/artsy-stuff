@@ -24,7 +24,7 @@ ul li{
 	display: inline-block;
 	text-decoration: none;
 }
-img[src="logo-final.png"]{
+img[src="Mega Music/logo-final.png"]{
 	padding: 7.5px 0;
 	margin-left: 38px;
 	float: left;
@@ -32,7 +32,7 @@ img[src="logo-final.png"]{
 	width: 75px;
 	height: auto;
 }
-img[src="user-icon.png"]{
+img[src="Mega Music/user-icon.png"]{
 	padding: 17px 0;
 	margin-right: 38px;
 	float: right;
@@ -130,13 +130,13 @@ ul li h1{
 		font-size: 38px;
 		margin: 10px 0;
 	}
-	.head img[src="logo-final.png"]{
+	.head img[src="Mega Music/logo-final.png"]{
 		width: 50px;
 		height: auto;
 		margin-top: 8px;
 		margin-left: 20px;
 	}
-	.head img[src="user-icon.png"]{
+	.head img[src="Mega Music/user-icon.png"]{
 		width: 40px;
 		height: auto;
 		margin-top: 4px;
