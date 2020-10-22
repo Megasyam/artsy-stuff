@@ -51,7 +51,7 @@ ul li h1{
 	/*transform: scale(-1, 1);*/
 }
 #bill{
-	margin: 38px 25px 12px 25px;
+	margin: 58px 25px 0 25px;
 	font-size: 30px;
 	color: #FF99BD;
 	letter-spacing: 0.012em;
@@ -67,15 +67,17 @@ ul li h1{
 	display: none;
 }
 .hot>img{
-  	margin: 10px 8.3px;
+  	margin: 25px 10px;
   	width: 170px;
 	height: auto;
 	border-radius: 10%;
   	transition: transform 0.35s ease;
+  	box-shadow: 0.1px 0.1px 10px 3.8px #000;
   	/*opacity: 0.93;*/
 }
 .hot>img:hover {
   	transform: scale(1.1);
+  	box-shadow: 0.1px 0.1px 10px 4px #000;
   	/*opacity: 1;*/
 }
 .hot>img:active{
@@ -83,7 +85,7 @@ ul li h1{
 	transform: scale(1);
 }
 #sk{
-	margin: 13px 25px 12px 25px;
+	margin: 0 25px;
 	font-size: 30px;
 	color: #FF99BD;
 	letter-spacing: 0.012em;
@@ -110,15 +112,17 @@ ul li h1{
 	display: none;
 }
 .skt>.pic>img{
-  	margin: 10px 12px;
+  	margin: 20px 12px 15px 12px;
   	width: 160px;
 	height: 160px;
 	border-radius: 50%;
   	transition: transform 0.35s ease;
+  	box-shadow: 0.1px 0.1px 10px 3.8px #000;
   	/*opacity: 0.93;*/
 }
 .skt>.pic>img:hover{
   	transform: scale(1.09);
+  	box-shadow: 0.1px 0.1px 10px 4px #000;
   	/*opacity: 1;*/
 }
 .skt>.pic>img:active{
